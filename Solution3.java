@@ -56,8 +56,8 @@ class Solution3 {
         for (int i = maxValIndex; i >= 0; i = prevIndex[i]) {
             res.add(nums[i]);
             if (prevIndex[i] == -1) break; // 如果没有前驱，结束
-        }
-        return res;
+        } //不错不错
+        return res; 
     }
 }
 
